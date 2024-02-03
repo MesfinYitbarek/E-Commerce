@@ -40,7 +40,8 @@ const Navbar = () =>{
       <button className="toggle" onClick={toggleMenu}>
         {
           MobileMenu? <i className="fas fa-times close home-bth"></i> :
-          <i className="fa fa-bars open"></i>
+          <i className="fa-solid fa-bars open "></i>
+
         }
       </button>
     </nav>

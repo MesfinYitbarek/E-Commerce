@@ -89,6 +89,7 @@
         height: 100vh;
         background-color: #fff;
         z-index: 888;
+        box-shadow: rgba(50,50,93,0.23) 0 50px 100px -20px , rgba(0,0,0,0.3) 030px 60px -30px;
     }
 
     header ul li{
@@ -108,5 +109,23 @@
         display: block;
         font-size: 25px;
         z-index: 999;
+    }
+    .open{
+        top: 18%;
+        right: 30px;
+    }
+    .close{
+        right: 45%;
+    }
+    .close .home-btn{
+        color: #ff014f;
+        background:linear-gradient(145deg, #e2e8ec, #ffffff);
+        border-radius: 50%;
+        padding: 0;
+        width:60px;
+        height: 60px;
+        line-height: 60px;
+
+        
     }
 }
