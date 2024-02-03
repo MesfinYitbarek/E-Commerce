@@ -1,0 +1,50 @@
+.catagories{
+    background-color: #f6f9f6;
+    padding: 0 30px;
+    border-radius: 5px;
+    height: 6vh;
+    margin-top: 5px;
+}
+
+.catagories  span{
+   margin-right: 20px;
+   font-size: 30px;
+   margin-top: 5px;
+}
+
+
+.catagories h4{
+    font-weight: 500;
+    margin-top:12px ;
+}
+
+.catagories h4 i{
+    margin-left: 10px;
+}
+
+header{
+    height: 8vh;
+    box-shadow: -1px 15px 17px -8px rgba(0,0,0,0.1);
+}
+
+header ul{
+    line-height: 8vh;
+}
+
+header ul li{
+    margin-left: 30px;
+}
+
+header ul li a{
+    transition: 0.5s;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+header ul li a:hover{
+    color: tomato;
+}
+
+.open{
+    display: none;
+}
