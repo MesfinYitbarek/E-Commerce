@@ -1,5 +1,6 @@
 import React from "react";
 import { ReactDOM } from "react";
+import { BrowserRouter as Router, Switch} from "react-router-dom";
 import Navbar from "./Navbar";
 import Head from "./Head";
 import Search from "./Search";
@@ -8,9 +9,19 @@ const Header = () =>{
    return(
 
     <div className="header"> 
-      <Head/>
-      <Search/>
-      <Navbar/>
+     
+      <Router>
+            <Head/>
+            <Search/>
+            <Navbar/>
+            <Switch>
+              { /*<Route path="/" exact >
+                <About />
+              </Route>
+              */}
+           </Switch>
+      </Router>
+      
     </div>
 
    );

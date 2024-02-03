@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom/cjs/react-router-dom";
 import { ReactDOM } from "react";
 import "./Navbar.css"
 const Navbar = () =>{
@@ -17,12 +18,24 @@ const Navbar = () =>{
     
     <nav className="navlink">
       <ul className={MobileMenu ? "nav-links-MobileMenu" : "link f_flex capitalize"} onClick={() => setMobileMenu(false)}>
-         <li><a href="#">Home</a></li>
-         <li><a href="#">Pages</a></li>
-         <li><a href="#">User Account</a></li>
-         <li><a href="#">Vendour Account</a></li>
-         <li><a href="#">Track My Order</a></li>
-         <li><a href="#">Contact</a></li>
+        <li>
+         <Link to='#'>Home</Link>
+        </li>
+        <li>
+         <Link to="#">Pages</Link>
+        </li>
+        <li>
+         <Link to= "#">User Account </Link>
+        </li>
+        <li>
+         <Link to='#' >Vendour Account</Link>
+        </li>
+        <li>
+         <Link to='#'>Track My Order</Link>
+        </li>
+        <li>
+         <Link to='#'>Contact</Link>
+        </li>
       </ul>
       <button className="toggle" onClick={toggleMenu}>
         {
