@@ -41,7 +41,6 @@ const Navbar = () =>{
         {
           MobileMenu? <i className="fas fa-times close home-bth"></i> :
           <i className="fa-solid fa-bars open "></i>
-
         }
       </button>
     </nav>
